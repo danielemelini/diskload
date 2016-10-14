@@ -24,15 +24,12 @@ function p=pLegendre(lmax, z)
 %	Dependencies:	None
 %
 %	Written by Mark Wieczorek June 2004
+%       Modified by Giorgio Spada, 2007
+%       Ported to MATLAB by Daniele Melini, 2015
 %
-% ----> Modified to SINGLE PRECISION by Giorgio Spada 2007 
-% ----> Also modified for the management of ERROR conditions 
-% ----> Ported to MATLAB by Daniele Melini 2015
-%
-%	Copyright (c) 2005, Mark A. Wieczorek
+%	Original code is Copyright (c) 2005, Mark A. Wieczorek
 %	All rights reserved.
 %
-% 18.8.2015 - vectorized version
 
 nz   = length(z);
 
