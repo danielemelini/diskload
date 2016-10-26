@@ -6,7 +6,7 @@ function [u,v,g]=diskload(alpha,icomp,theta,w,nmin,nmax,h,k,l)
 % distance(s) theta from the center of the disc load.
 % The elastic response is computed using user-supplied elastic loading 
 % Love numbers (h,k,l) generated using a specific elastic structure model
-% for the earth. If three output arguements are invoked, this function
+% for the earth. If three output arguments are invoked, this function
 % also computes the change in the height of the geoid at each station.
 % The pressure load imposed within the disk is expressed in terms of the 
 % equivalent depth height, thickness) of liquid water (density=1000 kg/m3).
