@@ -50,8 +50,8 @@ function [u,v,g]=diskload(alpha,icomp,theta,w,nmin,nmax,h,k,l)
 % REFERENCE:
 % This function is associated with the publication 
 %    Bevis, M., Melini, D., Spada, G., 2016. On computing the geoelastic 
-%    response to a disk load, Geophys. J. Int., first published online 
-%    March 30, 2016, doi:10.1093/gji/ggw115
+%    response to a disk load, Geophys. J. Int. 205 (3), 1,804-1,812,
+%    doi:10.1093/gji/ggw115
 % 
 % DEPENDENCIES:
 % This function calls function pLegendre.m
